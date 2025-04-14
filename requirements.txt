@@ -1,0 +1,12 @@
+Flask==3.0.0
+Flask-Caching==2.3.0
+Werkzeug==3.0.1
+gunicorn==23.0.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+pandas==2.2.2
+requests==2.32.3
+torch==2.0.1
+torchvision==0.15.2
+ultralytics==8.3.102
+whitenoise==6.8.2
