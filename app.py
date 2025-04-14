@@ -7,7 +7,7 @@ from ultralytics import YOLO
 app = Flask(__name__)
 
 model = YOLO("best.pt")
-VIDEO_PATH = "mp4/video.mp4"  # Sesuaikan path video
+VIDEO_PATH = "mp4/0414(1).mp4"
 
 def generate_frames():
     cap = cv2.VideoCapture(VIDEO_PATH)
